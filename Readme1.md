@@ -18,17 +18,18 @@ This is a Bash script designed to **search** or **extract** specific data types 
 ./script.sh <operation_type> <keyword>
 ```
 
-### Arguments
-- `<operation_type>`: 
+### Parameters
+1. `<operation_type>`: 
   - `0` for searching data within files.
   - `1` for extracting data from files.
-- `<keyword>`: Type of data to search or extract.
+
+2. `<keyword>`: Type of data to search or extract.
 
 ### Supported Keywords
 | Keyword    | Description                   |
 |------------|-------------------------------|
 | `phone`    | Finds US phone numbers        |
-| `url`      | Finds URLs (e.g.,             |
+| `url`      | Finds URLs                    |
 | `email`    | Finds email addresses         |
 | `ip`       | Finds IPv4 addresses          |
 | `username` | Finds usernames in `Last, First` format |
@@ -53,3 +54,7 @@ This is a Bash script designed to **search** or **extract** specific data types 
 ### Notes
 - Ensure that you have files in the current directory that contain the data you want to search or extract.
 - The script uses different regex options (`grep -P` for phones, `grep -E` for other types).
+
+## Author
+
+Riley Meeves
