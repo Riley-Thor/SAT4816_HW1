@@ -57,4 +57,4 @@ This is a Bash script designed to **search** or **extract** specific data types 
 
 ## Author
 
-Riley Meeves
+Riley
